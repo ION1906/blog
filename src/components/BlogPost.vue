@@ -29,7 +29,7 @@
               <li class="c" v-for="comment in comments" :key="comment.id">
                   <h3 class="n">
                
-                    <i class="far fa-user-circle u" ></i>
+                    
                     <span class="n-span">
                     {{ comment.name | capitalize }}
                     </span>
