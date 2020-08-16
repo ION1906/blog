@@ -16,7 +16,7 @@
   <div v-if="commentIs">
     <div class="co-i">
                   <form>
-                    <i class="far fa-user-circle u-i"></i>
+                  
                     <input class="name" type="text" name="name" id="name" v-model="details.name" placeholder="Name">
                     <input class="comment" type="text" name="comment" id="comment" v-model="details.body" placeholder="Comment">
                     <button @click.prevent="addComments" class="c-b">Comment</button>
